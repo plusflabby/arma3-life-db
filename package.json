@@ -1,12 +1,23 @@
 {
   "name": "arma3-life-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
     "example": "node example/index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plusflabby/arma3-life-db.git"
+  },
+  "keywords": [
+    "Arma3",
+    "Arma",
+    "AltisLife",
+    "MaldenLife",
+    "TanoaLife",
+    "Life"
+  ],
   "author": "+Flabby",
   "license": "ISC",
   "dependencies": {
