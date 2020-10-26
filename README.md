@@ -49,5 +49,5 @@ log()
 
 ## To-Do List
 - Hardcode getting information for vehicles
-- Hardcore getting information for gangs
-- Hardcore a function to update values
+- Hardcode getting information for gangs
+- Hardcode a function to update values
