@@ -1,0 +1,15 @@
+{
+  "name": "arma3-life-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "example": "node example/index.js"
+  },
+  "keywords": [],
+  "author": "+Flabby",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
