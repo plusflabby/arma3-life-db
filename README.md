@@ -1,5 +1,5 @@
 # arma3-life-db
-Connects to your life server's database on arma 3 to pull information.
+Connects to your life server's database on arma 3 to pull or update information.
 
 ## Features
 - Get cash, bank, levels, etc.. for a player
@@ -78,11 +78,10 @@ This function updates a value for the supplied table and for the supplied search
     - "Search_Column" (String) - The SQL column to search from
     - "Search_Value" (String) - The value to search the Search_Column for
 ```javascript
-async function log() {
-    console.log("Cop level", await a3ldb.Get.Custom("players", "coplevel", "pid", "76561198325855765"))
-    console.log("Medic level", await a3ldb.Get.Custom("players", "mediclevel", "pid", "76561198325855765"))
+async function updateCash() {
+    console.log("Cash update", await a3ldb.Update("players", "cash", "1000000", "pid", "76561198325855765"))
 }
-log()
+updateCash()
 ```
 
 ## To-Do List
