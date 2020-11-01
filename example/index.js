@@ -22,3 +22,17 @@ async function logCustom() {
     console.log("Cop level", await a3ldb.Get.Custom("players", "coplevel", "pid", "76561198325855765"))
 }
 logCustom()
+
+
+
+//Update cash
+async function updateCash() {
+    console.log("Cash update", await a3ldb.Update("players", "cash", "1000000", "pid", "76561198325855765"))
+}
+updateCash()
+
+//Logs out updated cash
+async function logCashUpdated() {
+    console.log("Cash", await a3ldb.Get.Player("76561198325855765", "cash"))
+}
+logCashUpdated()
