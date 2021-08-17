@@ -12,7 +12,7 @@ Connects to your life server's database on arma 3 to pull or update information.
 - Database(MySQL/MariaDB)
 
 ## Installation 
-1. Install the package using NPM with command `npm i --save arma3-life-db`
+1. Install the package using [NPM](https://www.npmjs.com/package/arma3-life-db) with command `npm i --save arma3-life-db`
 2. Done! Now time to configure.
 
 ## Configuration
