@@ -28,8 +28,8 @@ Config({
     IP: "127.0.0.1",
     Port: "3306",
     Database: "altislife",
-    User: "test",
-    Pass: "123321"
+    Username: "test",
+    Password: "123321"
 })
 ```
 
