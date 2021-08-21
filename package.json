@@ -1,9 +1,10 @@
 {
   "name": "arma3-life-db",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
+    "build": "tsc src/index.ts",
     "start:js": "nodemon examples/index.js",
     "start:ts": "nodemon examples/index.ts"
   },
@@ -25,7 +26,6 @@
   "author": "+Flabby",
   "license": "ISC",
   "dependencies": {
-    "mysql": "^2.18.1",
     "mysql2": "^2.3.0"
   },
   "devDependencies": {
